@@ -78,8 +78,8 @@ mysql -u root -p < sql/schema.sql
 Edit `src/main/java/com/banking/util/DBConnection.java`:
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/banking_db";
-private static final String USER = "your_username";
-private static final String PASSWORD = "your_password";
+private static final String USER = "Harini";
+private static final String PASSWORD = "Harini@23";
 ```
 
 ### 3. Deploy on Tomcat
